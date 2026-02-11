@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1600px;
+}
+
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* common classes */
+.description_paragraph{
+    
+}
+
+.display_flex{
+    display: flex;
+}
+
+/* nav  bar design */
+.nav_bar{
+    background-color: #1A0B2E;
+    display: flex ;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.nav_bar img{
+    width: 219px;
+    height: 32px;
+}
+.nav_link ul li{
+    list-style: none;
+    
+}
+.nav_bar ul{
+     gap: 32px;
+
+}
+.nav_link ul li a{
+    text-decoration: none;
+     color: #FFFFFF;
+     font-weight: 500;
+     font-size: 1rem;
+}
+button{
+padding: 12px 16px;
+gap: 4px;
+width: 135px;
+height: 44px;
+background: linear-gradient(48.06deg, #F7E93F 16.53%, #FB09B4 49.82%, #9100F8 81.65%);
+border-radius: 10000px;
+}
