@@ -48,6 +48,22 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
+.features_heading {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    padding: 16px 0 16px;
+}
+
+.card_paragraph {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
 /* nav  bar design */
 header {
     background-color: #1A0B2E;
@@ -237,6 +253,65 @@ header {
     margin-top: 16px;
 }
 
+/* card design */
+.card_section {
+    background-color: #230e3d;
+    padding: 120px 200px;
+}
+
+.features {
+    padding: 40px;
+    border-radius: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+}
+
+.features_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 225px 225px 273px;
+    gap: 30px;
+    align-content: center;
+    padding-top: 40px;
+}
+
+.features_1 {
+    grid-column: span 1;
+    grid-row: span 2;
+
+}
+
+.features_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.features_2 {
+    grid-column: span 2;
+    grid-row: span 1;
+
+}
+
+.features_3 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.features_4 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.features_5 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.thunder_icon {
+    width: 50px;
+    height: 50px;
+}
 
 
 
@@ -249,11 +324,12 @@ header {
 
     .nav_bar {
         width: 100%;
+        padding: 0 20px;
     }
 
     .mictophon {
         position: absolute;
-        top: 225px;
+        top: 165px;
 
     }
 
@@ -270,8 +346,7 @@ header {
 
     .hero_div1 {
         gap: 40px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 40px 20px 40px;
     }
 
     .btn_4 {
@@ -281,14 +356,31 @@ header {
     .about_podcast {
         margin-top: 40px;
         margin-bottom: 40px;
+        padding: 0 20px;
     }
-.viewer_card{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    padding: 40px 20px 40px;
-    justify-items: center;
-}
+
+
+    .viewer_card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        padding: 40px 20px 40px;
+        justify-items: center;
+    }
+
+    .card_section {
+        padding: 40px 20px;
+    }
+
+    .features_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        gap: 16px;
+        align-content: center;
+        padding-top: 16px;
+    }
+
 
 }
 
@@ -310,20 +402,40 @@ header {
         margin-bottom: 5px;
     }
 
+    .mictophon {
+        position: absolute;
+        top: 235px;
+
+    }
+
     .btn_4 {
         left: 57%;
     }
-  .hero_div1 {
+
+    .hero_div1 {
         gap: 40px;
         padding-top: 60px;
         padding-bottom: 60px;
     }
 
-    .viewer_card{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
-    padding: 60px 20px 60px;
-    justify-items: center;
-}
+    .viewer_card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        padding: 60px 20px 60px;
+        justify-items: center;
+    }
+
+    .features_container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+        align-content: center;
+        padding-top: 16px;
+    }
+
+    .features_1 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
 }
