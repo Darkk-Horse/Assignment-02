@@ -393,8 +393,49 @@ header {
     margin-bottom: 16px;
 }
 
+/* footer styles */
+.footer {
+    background-image: url(./images/footer-bg.png);
+    background-position: center;
+}
 
+.footer_main {
+    padding: 120px 0 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer_title img {
+    width: 410px;
+    height: auto;
+}
+
+.footer_main_p {
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.top_footer {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgba(250, 250, 250, 0.6);
+}
+
+.middle_div {
+    display: flex;
+    gap: 40px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.soscial_connection {
+    display: flex;
+    gap: 8px;
+}
 
 
 
@@ -488,12 +529,32 @@ header {
         background-color: rgba(53, 17, 101, 0.4);
         justify-content: center;
         align-items: center;
-    } 
-    .introduce_alex{
+    }
+
+    .introduce_alex {
         text-align: center;
     }
-    .host_icons{
+
+    .host_icons {
         justify-content: center;
+    }
+
+    .footer_main {
+        padding: 40px 20px;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: ;
+        align-items: center;
+    }
+
+    .middle_div {
+        gap: 16px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
     }
 
 }
@@ -540,8 +601,15 @@ header {
     .viewer_card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
         gap: 30px;
+        padding: 40px 20px 40px;
     }
+
+    .featured_div1 {
+        margin-bottom: 80px;
+    }
+
 
     .features_container {
         grid-template-columns: repeat(2, 1fr);
@@ -560,7 +628,15 @@ header {
         padding: 60px 20px;
     }
 
+
     .episode_detail {
         grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        height: 100%;
+        margin-top: 24px;
+    }
+
+    .challenge_bar {
+        align-items: center;
     }
 }
