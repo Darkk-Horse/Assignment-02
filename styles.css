@@ -328,8 +328,8 @@ header {
     position: absolute;
     width: 200%;
     height: 200%;
-    top: -50%;
-    left: -50%;
+    top: -10%;
+    left: -90%;
     background: linear-gradient(48.06deg, #F7E93F 16.53%, #FB09B4 49.82%, #9100F8 81.65%);
     animation: rotateBorder 4s linear infinite reverse;
     z-index: -2;
@@ -348,6 +348,10 @@ header {
     0% {
         transform: rotate(0deg);
     }
+
+    /* 50% {
+        transform: rotate(180deg);
+    } */
 
     100% {
         transform: rotate(360deg);
@@ -581,6 +585,11 @@ header {
         justify-content: center;
     }
 
+    .footer_title img {
+        width: 220px;
+        height: auto;
+    }
+
     .footer_main {
         padding: 40px 20px;
         flex-direction: column;
@@ -596,6 +605,11 @@ header {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         align-items: center;
+    }
+
+    .top_footer {
+        text-wrap: wrap;
+        text-align: center;
     }
 
 }
