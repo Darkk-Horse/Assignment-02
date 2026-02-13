@@ -357,6 +357,46 @@ header {
     color: #00FF88;
 }
 
+/* host part desing */
+.host_title {
+    margin-bottom: 40px;
+}
+
+.alex_name {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.host_icons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.icon_decoration {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #533C72;
+}
+
+.challenge_bar {
+    gap: 24px;
+    padding: 40px;
+    border-radius: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    ;
+}
+
+.host_paragraph {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 576px) {
@@ -440,6 +480,21 @@ header {
         margin-bottom: 60px;
     }
 
+    .challenge_bar {
+        flex-direction: column;
+        gap: 16px;
+        padding: 24px;
+        border-radius: 24px;
+        background-color: rgba(53, 17, 101, 0.4);
+        justify-content: center;
+        align-items: center;
+    } 
+    .introduce_alex{
+        text-align: center;
+    }
+    .host_icons{
+        justify-content: center;
+    }
 
 }
 
