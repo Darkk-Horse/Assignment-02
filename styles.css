@@ -313,6 +313,40 @@ header {
     height: 50px;
 }
 
+/* featured episode design */
+.featured_episode{
+    padding: 120px 200px;
+    background-color: #1A0B2E;
+}
+.episodes_card{
+    background-color: #250d44;
+    border-radius: 24px;
+}
+.episode_detail{
+    display: flex;
+    gap: 30px;
+}
+.after_video{
+    padding: 24px;
+}
+
+.duration{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.duration img{
+    width: 16px;
+    height: 16px;
+}
+.duration_text{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #00FF88;
+}
+
 
 
 @media screen and (max-width: 576px) {
